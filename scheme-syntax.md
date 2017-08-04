@@ -19,9 +19,13 @@ $ scheme < test.scm
         (+ a (sum-integers (+ a 1) b))))
 ```
 
-## if判斷
+## 邏輯判斷
 ```
 (if (< a b)
     1
     2)
+    
+(cond ((= y 0) 0)
+    ((= y 1) (* 2 y))
+    ((= y 2) 2)
 ```
